@@ -1,4 +1,4 @@
-# Tuple-Iterator-with-Callbacks
+#Structure-Iterator-with-Callbacks
 Problem statemnet (C+11):
 
 A strcuture has different members and each member has respective processing functions (callbacks) and the resultant value is derived from all the processed value. 
