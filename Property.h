@@ -44,8 +44,8 @@ constexpr void PropertyIterator(std::integer_sequence<Properties, Property...>, 
 
 const std::unordered_map<std::string,std::int32_t(std::int32_t)> baseColorToRandom{
     {red,[](std::int32_t base)-> std::int32_t{return base * 10;}},
-    {red,[](std::int32_t base)-> std::int32_t{return base * base;}},
-    {red,[](std::int32_t base)-> std::int32_t{return base * 30;}}
+    {green,[](std::int32_t base)-> std::int32_t{return base * base;}},
+    {blue,[](std::int32_t base)-> std::int32_t{return base * 30;}}
 }  
 
 const auto& getBaseToRandomHashMap()
